@@ -1,0 +1,52 @@
+body {
+    background-color: #9B91E9;
+}
+
+.second-layer {
+    display: grid;
+    grid-template-columns: 150px 150px 150px 150px;
+    justify-content: center;
+    gap: 1.5px 1.5px;
+    margin-top: 12px;
+
+}
+
+.gid {
+    background-color: #E0BC9C;
+    border: 2px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.input {
+    width: 560px;
+    height: 50px;
+}
+
+input {
+    border: black;
+    border-radius: 20px;
+    border-style: solid;
+    padding: 10px;
+    outline: none;
+}
+
+input[type="text"] {
+    display: block;
+    margin: auto;
+    margin-top: 30px;
+    font-size: 30px;
+    background-color: #C4F3DB;
+}
+
+input::placeholder {
+    font-size: 40px;
+    padding: 7px;
+}
+
+button:hover {
+    cursor: pointer;
+
+}
